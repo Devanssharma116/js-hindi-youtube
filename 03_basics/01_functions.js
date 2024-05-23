@@ -10,10 +10,10 @@ function sayMyName(){
 
 // sayMyName()
 
-// function addTwoNumbers(number1, number2){
+function addTwoNumbers(number1, number2){
 
-//     console.log(number1 + number2);
-// }
+    console.log(number1 + number2);
+}
 
 function addTwoNumbers(number1, number2){
 
@@ -35,9 +35,9 @@ function loginUserMessage(username = "sam"){
     return `${username} just logged in`
 }
 
+// console.log(loginUserMessage())
 // console.log(loginUserMessage("hitesh"))
-// console.log(loginUserMessage("hitesh"))
-
+// if i pass nothing in string then it ngives undifiend
 
 function calculateCartPrice(val1, val2, ...num1){
     return num1
@@ -55,10 +55,10 @@ function handleObject(anyobject){
 }
 
 // handleObject(user)
-handleObject({
-    username: "sam",
-    price: 399
-})
+// handleObject({
+//     username: "sam",
+//     price: 399
+// })
 
 const myNewArray = [200, 400, 100, 600]
 
